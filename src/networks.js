@@ -14,7 +14,6 @@ module.exports = {
     wif: 0x99
   },
   testnet: {
-    messagePrefix: '\x18Bitcoin Signed Message:\n',
     messagePrefix: '\x18ION Signed Message:\n',
     bech32: 'tb',
     bip32: {

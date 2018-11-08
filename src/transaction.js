@@ -23,7 +23,7 @@ function vectorSize (someVector) {
 
 function Transaction () {
   this.version = 1
-  this.time = Math.round(Date.now()/1000)
+  this.time = Math.round(Date.now() / 1000)
   this.locktime = 0
   this.ins = []
   this.outs = []
